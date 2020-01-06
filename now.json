@@ -15,5 +15,10 @@
   },
   "env": {
     "APP_ENV": "@next-now-template.app_env"
+  },
+  "build": {
+    "env": {
+      "APP_ENV": "@next-now-template.app_env"
+    }
   }
 }
