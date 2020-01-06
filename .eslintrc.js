@@ -21,6 +21,7 @@ module.exports = {
     // TypeScript
     // React rules
     'react/react-in-jsx-scope': IGNORE,
+    'react/prop-types': IGNORE,
   },
   settings: {
     react: {
