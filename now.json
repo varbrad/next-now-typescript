@@ -12,5 +12,8 @@
   ],
   "github": {
     "silent": true
+  },
+  "env": {
+    "APP_ENV": "@next-now-template.app_env"
   }
 }
