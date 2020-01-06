@@ -1,0 +1,38 @@
+{
+  "name": "next-now-template",
+  "version": "1.0.0",
+  "description": "A template for a Next/Now deployment stack with TypeScript",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "lint": "eslint src --ext .ts,.tsx",
+    "start": "next start",
+    "test": "jest --passWithNoTests",
+    "tsc": "tsc --noEmit",
+    "update": "npm-check -u"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "0.0.35",
+    "@types/node": "^13.1.4",
+    "@types/react": "^16.9.17",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "jest": "^24.9.0",
+    "npm-check": "^5.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
+}
